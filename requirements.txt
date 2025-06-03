@@ -1,0 +1,4 @@
+dotenv
+axios
+csv-parser
+csv-writer

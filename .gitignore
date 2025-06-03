@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# dotenv and other secrets
+.env
+.env.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output files (optional; e.g. results from your work)
+results.csv
+*.csv # uncomment if you want to ignore ALL csv files EXCEPT your input orders.csv
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Optional: Ignore output CSVs except orders.csv
+# !orders.csv    # Remove the "!" if you DO want to keep orders.csv out of git
+
+# Ignore package-lock if you want (optional)
+# package-lock.json
+
+# Mac ._ files
+._*
+
+# Linux/misc swap files
+*~
+*.swp
+
+# npm cache
+.npm
+
+# test artifacts
+coverage/
